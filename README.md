@@ -1,15 +1,21 @@
-Welcome to your new dbt project!
+# DBT Customer Churn
 
-### Using the starter project
+A dbt project for transforming and testing customer churn data.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Tools
+- PostgreSQL
+- dbt
+- SQL
 
+## Features
+- Staging transformations
+- Data quality tests
+- Customer churn analysis
+- dbt documentation and lineage
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Run
+
+```bash
+dbt seed
+dbt run
+dbt test
